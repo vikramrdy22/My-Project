@@ -1,0 +1,12 @@
+var app = angular.module('app', ['ngRoute']);
+
+app.controller('ProjectController', function($scope){
+	$scope.ProjectName="Dynamic Scripting";
+	
+	$scope.AngularMenu=[{"DisplayText":"Scopes","Navigation":"#Scopes","Title":"This link is to know about Scopes in Angularjs"},{"DisplayText":"Bindings","Navigation":"#Bindings","Title":"This link is to know about Bindings in Angularjs"},{"DisplayText":"Controllers","Navigation":"#Controllers","Title":"This link is to know about Controllers in Angularjs"},{"DisplayText":"Directives","Navigation":"#Directives","Title":"This link is to know about Directives in Angularjs"},{"DisplayText":"Services","Navigation":"#Services","Title":"This link is to know about Services in Angularjs"},{"DisplayText":"FormValidations","Navigation":"#FormValidations","Title":"This link is to know about FormValidations in Angularjs"},{"DisplayText":"Animation","Navigation":"#Animation","Title":"This link is to know about Animation in Angularjs"},{"DisplayText":"Routing","Navigation":"#Routing","Title":"This link is to know about Routing in Angularjs"}];
+	
+	$scope.JqueryMenu=[{"DisplayText":"Selectors","Navigation":"#Selectors","Title":"This link is to know about Selectors in Jquery"},{"DisplayText":"Advanced-Selectors","Navigation":"#AdvancedSelectors","Title":"This link is to know about AdvancedSelectors in Jquery"},{"DisplayText":"Event-Handling","Navigation":"#EventHandling","Title":"This link is to know about EventHandling in Jquery"},{"DisplayText":"Animation","Navigation":"#Animation","Title":"This link is to know about Animation in Jquery"},{"DisplayText":"DOM-Manipulation","Navigation":"#DOMManipulation","Title":"This link is to know about DOMManipulation in Jquery"},{"DisplayText":"Templates","Navigation":"#Templates","Title":"This link is to know about Templates in Jquery"},{"DisplayText":"UI-Elements","Navigation":"#UIElements","Title":"This link is to know about UIElements in Jquery"}];
+	
+	$scope.TopMenu=[{"DisplayText":"Login","Navigation":"#Login","Title":"Login"},{"DisplayText":"Settings","Navigation":"#Settings","Title":"Settings"},{"DisplayText":"Profile","Navigation":"#Profile","Title":"Profile"},{"DisplayText":"Help","Navigation":"#Help","Title":"Help"}];
+	
+});

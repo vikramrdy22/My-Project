@@ -1,0 +1,12 @@
+app.config(function($routeProvider){
+	$routeProvider.when("/MasterAccountForm",{
+		templateUrl:"JQUERY/MasterAccountForm.html",
+		controller:"MasterAccountFormController"
+	}).when("/SchemeForm",{
+		templateUrl:"JQUERY/SchemeForm.html",
+		controller:"SchemeFormController"
+	}).when("/AreaMasterForm",{
+		templateUrl:"JQUERY/AreaMaster.html",
+		controller:"AreaMasterController"
+	})	
+});

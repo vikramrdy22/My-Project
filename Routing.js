@@ -1,0 +1,24 @@
+app.config(function($routeProvider){
+	$routeProvider.when("/Selectors",{
+		templateUrl:"JQUERY/Selectors.html",
+		controller:"JquerySelectorsController"
+	}).when("/AdvancedSelectors",{
+		templateUrl:"JQUERY/AdvancedSelectors.html",
+		controller:"JqueryAdvancedSelectorsController"
+	}).when("/EventHandling",{
+		templateUrl:"JQUERY/EventHandling.html",
+		controller:"JqueryEventHandlingController"
+	}).when("/Animation",{
+		templateUrl:"JQUERY/Animation.html",
+		controller:"JqueryAnimationController"
+	}).when("/DOMManipulation",{
+		templateUrl:"JQUERY/DOMManipulation.html",
+		controller:"JqueryDOMManipulationController"
+	}).when("/Templates",{
+		templateUrl:"JQUERY/Templates.html",
+		controller:"JqueryTemplatesController"
+	}).when("/UIElements",{
+		templateUrl:"JQUERY/UIElements.html",
+		controller:"JqueryUIElementsController"
+	})	
+});
